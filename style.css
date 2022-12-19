@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+}
+body
+{
+overflow-x: hidden;
+}
+.fixed{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header1{
+    height: 44px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginDiv{
+    margin-left: 700px;
+    position: absolute;
+    margin-top: 36px;
+}
+.a1{
+
+    text-decoration: none;
+    font-size: 15px;
+    color:#000;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-family: Manrope;
+}
+.header2{
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a2Login{
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+   margin: 0 10px;
+}
+.header3{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    
+   
+}
+.head3Ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+   
+}
+
+.head3Ul a{
+    margin-top: 20px;
+    text-decoration: none;
+   color: aliceblue;
+  
+}
+.head4{
+    height: 44px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a4{
+    text-decoration: none;
+    font-size: 15px;
+    color:#000;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-family: Manrope;
+}
+.head5{
+    height: 44px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a5{
+    text-decoration: none;
+    font-size: 15px;
+    color:#000;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-family: Manrope;
+}
+.imgClass{
+    height: 500px;
+    width: 100%;
+   position: relative;
+    background-image: url('images/piuma.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+}
+.head6{
+    height: 90px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a6{
+    text-decoration: none;
+    font-size: 15px;
+    color:#000;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-family: Manrope;
+}
+.card2 img{
+    height:100%;
+    width: 100%;
+}
+.card1 img{
+     height:100%;
+    width: 100%;
+}
+.rowCard{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.acard1{
+    text-decoration: none;
+    font-size: 15px;
+    color:#000;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-family: Manrope;
+    
+}
+
+.card1{
+    height:300px;
+    width: 285px;
+    background-color: rgb(228, 226, 226);
+}
+.card2{
+    height:300px;
+    width: 285px;
+    background-color: rgb(228, 226, 226);
+}
+.card3{
+    height:300px;
+    width: 285px;
+    background-color: rgb(228, 226, 226);
+}
+.reviews{
+    height:300px;
+    width: 100%;
+    background-color: rgb(228, 226, 226);
+    text-align: center;
+}
+.reviews h3{
+   
+    font-family: 'M PLUS 1p', sans-serif;
+    letter-spacing: 5px;
+    padding-top: 100px;
+   
+}
+.pClass{
+    margin-top: 48px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+.rClass{
+
+    height:750px ;
+    width:100%;
+   
+}
+.routine{
+    height:300px;
+    width: 100%;
+    
+}
+.ulRoutine{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 200px 0px 200px;
+
+}
+
+.routine h3{
+    font-family: 'M PLUS 1p', sans-serif;
+    letter-spacing: 5px;
+    padding-top: 100px;
+    text-align: center;
+}
+.divMenu{
+    height: 50px;
+    line-height: 24px;
+    width: 210px;
+    letter-spacing:2px;
+  background-size: 10px;
+  background-color: #000;
+  text-align: center;
+  margin-top: 20px;
+}
+.divMenu a{
+  
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 430;
+    padding-top: 20px;
+    background-color: #000;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.inputbox{
+    margin-top: 15px;
+    background-color: #000;
+    width: 457px;;
+    border-radius: 6px;
+    border-color: #fff;
+    height: 37px;
+}
+.lbl{
+    letter-spacing:2px;
+    margin-top: 10px;
+}
+.feather{
+    width: 200px;
+    margin-left: 50px;
+}
+.contacts{
+    width: 200px;
+    margin-left: 50px;
+}
+.underMenu{
+    width: 100%;
+    height:400px ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: -100px 200px 0px 200px;
+
+}
+.imgRoutin{
+    width: 350px;
+    height:350px ;
+    margin-top: -400px 0px -400px 0px;
+    background-repeat: no-repeat;
+}
+.imgRoutin img{
+width: 100%;
+height: 100%;
+}
+.textRoutine{
+    width: 50%;
+    margin-left: 30px;
+}
+.footer{
+    margin-top: -100px;
+}
